@@ -2,4 +2,11 @@
     <string name="app_name">About Me</string>
     <string name="name">Isaac Miti</string>
     <string name="yellow_star">Yellow star</string>
+    <string name="bio">My name is Isaac Miti.
+        \n\n\I am a digital designer, front end developer, aspiring mobile developer currently learning Android.
+        I contribute to open source projects in my spare time.
+        \n\nI play Fortnite on a regular basis. My GitHub username is ikayz.
+        \n\n\I have been learning mobile development in Android using Kotlin.
+        \n\n\I practice my Android and Kotlin skills every time I get the chance.
+        \n\nConsistency is key when it comes to getting good at something</string>
 </resources>
