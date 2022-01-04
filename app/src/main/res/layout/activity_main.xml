@@ -2,17 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/name_text"
+        style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/name"
-        android:textAlignment="center"
-        style="@style/NameStyle" />
+        android:textAlignment="center" />
 
     <ImageView
         android:id="@+id/star_image"
@@ -33,10 +33,10 @@
             style="@style/NameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="@dimen/line_spacing"
             android:paddingStart="@dimen/padding"
             android:paddingEnd="@dimen/padding"
-            android:text="@string/bio"
-            android:lineSpacingMultiplier="1.2"/>
+            android:text="@string/bio" />
     </ScrollView>
 
 </LinearLayout>
