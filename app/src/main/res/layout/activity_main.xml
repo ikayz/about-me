@@ -35,7 +35,8 @@
             android:layout_height="wrap_content"
             android:paddingStart="@dimen/padding"
             android:paddingEnd="@dimen/padding"
-            android:text="@string/bio" />
+            android:text="@string/bio"
+            android:lineSpacingMultiplier="1.2"/>
     </ScrollView>
 
 </LinearLayout>
