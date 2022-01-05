@@ -18,6 +18,8 @@
         android:id="@+id/nickname_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin"
         android:ems="10"
         android:hint="What is your nickname"
         android:inputType="textPersonName" />
@@ -36,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textAlignment="center"
         android:visibility="gone" />
 
     <ImageView
