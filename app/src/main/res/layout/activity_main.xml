@@ -15,15 +15,15 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/nickname_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="What is your nickname"
+        android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/done_btn"
+        android:id="@+id/done_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
