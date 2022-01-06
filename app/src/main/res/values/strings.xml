@@ -13,4 +13,6 @@
         that checks if scientific code has policies implemented and is reproducible.
         About Scientific code needs to be open source and peer reviewed
     </string>
+    <string name="done">Done</string>
+    <string name="what_is_your_nickname">What is your nickname</string>
 </resources>
