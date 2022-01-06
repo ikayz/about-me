@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.done_button).setOnClickListener {
             addNickname(it)
-
         }
     }
 
@@ -27,5 +26,9 @@ class MainActivity : AppCompatActivity() {
         nickname.visibility = View.GONE
         displayNickname.visibility = View.VISIBLE
         view.visibility = View.GONE
+
+        // Hide the keyboard after user action
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(view.windowToken, 0)
     }
 }
