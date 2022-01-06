@@ -22,7 +22,8 @@
         android:layout_marginEnd="@dimen/layout_margin"
         android:ems="10"
         android:hint="What is your nickname"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/done_button"
