@@ -1,3 +1,3 @@
 package com.ikayz.kotlin.aboutme
 
-data class MyName()
+data class MyName(var name: String = "", var nickname: String = "")
